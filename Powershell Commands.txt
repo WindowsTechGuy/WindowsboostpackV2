@@ -1,0 +1,5 @@
+powercfg -changename GUID "new name" "New Description"
+
+powercfg -import "path.pow" GUID
+
+powercfg -export "C:\power-plan-name.pow" GUID
